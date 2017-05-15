@@ -242,8 +242,8 @@
 		<node name="search" value="Szukaj"/>
 		<node name="order">
 			<node name="byCreationTime" value="wg daty utworzenia"/>
-			<node name="byAccessTime" value="wg daty dostępu"/>
-			<node name="byPageNo" value="wg liczby stron"/>
+			<node name="byAccessTime" value="wg daty otworzenia"/>
+			<node name="byPageNo" value="wg numeru strony"/>
 		</node>
 	</node>
 	<node name="editBookmark">
@@ -697,11 +697,11 @@
 				<node name="summaryOn" value="Zmieniaj strony poziomo"/>
 				<node name="summaryOff" value="Zmieniaj strony pionowo"/>
 			</node>
-			<node name="tapToScrollForward" value="Dotknij, aby przewinąć dalej">
-				<node name="right_to_left" value="Jedną trzecią ekranu z prawej strony"/>
-				<node name="left_to_right" value="Jedną trzecią ekranu z lewej strony"/>
-				<node name="up" value="Jedną trzecią ekranu na dole"/>
-				<node name="down" value="Jedną trzecią ekranu na górze"/>
+			<node name="tapToScrollForward" value="Dotknij, aby przerzucić stronę">
+				<node name="right_to_left" value="Prawą część ekranu"/>
+				<node name="left_to_right" value="Lewą część ekranu"/>
+				<node name="up" value="Dolną część ekranu"/>
+				<node name="down" value="Górną część ekranu"/>
 			</node>
 		</node>
 		<node name="tapZones" value="Strefy dotyku">
@@ -860,18 +860,18 @@
 					<node name="summaryOn" value="Używa uwierzytelniania nawet jeśli usługi Google są niedostępne"/>
 					<node name="summaryOff" value="Używa uwierzytelniania Google jeśli jest dostępne"/>
 				</node>
-				<node name="showChangeNotifications" value="Powiadomienia o zmianach pliku">
+				<node name="showChangeNotifications" value="Monitoruj zmiany plików">
 					<node name="allFiles" value="Zawsze"/>
-					<node name="bookFolders" value="Tylko dla plików w folderach z książkami"/>
+					<node name="bookFolders" value="Dla plików w folderach książek"/>
 					<node name="noFiles" value="Nigdy"/>
 				</node>
-				<node name="showOpenPremiumSuggestion" value="Okienko „Open Premium”">
-					<node name="summaryOn" value="Pokazuj za każdym razem gdy FBReader uruchamiany jest z launchera"/>
-					<node name="summaryOff" value="Nie pokazuj"/>
+				<node name="showOpenPremiumSuggestion" value="Okienko „Otwórz wersję Premium”">
+					<node name="summaryOn" value="Wyświetla przy każdym uruchomieniu FBReader"/>
+					<node name="summaryOff" value="Nie wyświetla"/>
 				</node>
-				<node name="logFileScanning" value="Zapisywanie skanowania plików do dziennika">
-					<node name="summaryOn" value="Utwórz nowy wpis dziennika za każdym razem gdy aplikacja próbuje wydobyć informacje o książce"/>
-					<node name="summaryOff" value="Nie zapisuj skanowania do dziennika"/>
+				<node name="logFileScanning" value="Przetwarzanie pliku dziennika">
+					<node name="summaryOn" value="Tworzy wpis do dziennika podczas przetwarzania pliku ładującego dane książki"/>
+					<node name="summaryOff" value="Nie tworzy wpisów"/>
 				</node>
 				<node name="copyLogs" value="Kopiuj pliki dzienników">
 					<node name="summary" value="Kopiuje pliki *.log do %s"/>
@@ -880,8 +880,8 @@
 				<node name="copyDatabase" value="Kopiuj bazę danych książek">
 					<node name="summary" value="Kopiuje plik books.db do %s"/>
 				</node>
-				<node name="scanFailures" value="Lista nieudanych skanowań">
-					<node name="summary" value="Lista plików, których FBReader nie mógł sprawdzić"/>
+				<node name="scanFailures" value="Lista błędów skanowania">
+					<node name="summary" value="Lista plików, których FBReader nie może przetworzyć"/>
 				</node>
 			</node>
 		</node>
@@ -923,7 +923,7 @@
 			<node name="markAsUnread" value="Oznacz jako nieprzeczytaną"/>
 			<node name="plugin" value="Wtyczka"/>
 			<node name="premium" value="Premium"/>
-			<node name="clear" value="Czyść"/>
+			<node name="clear" value="Wyczyść"/>
 		</node>
 		<node name="gotoPage" value="Idź do strony"/>
 		<node name="plugin">
@@ -1083,7 +1083,7 @@
 			<node name="newFolder" value="Nowy folder"/>
 			<node name="folderNameHint" value="Nazwa folderu"/>
 			<node name="menu">
-				<node name="origin" value="Pierwotne"/>
+				<node name="origin" value="Folder pierwotny"/>
 				<node name="reload" value="Wczytaj ponownie"/>
 			</node>
 			<node name="sortBy" value="Sortuj wg">
@@ -1255,7 +1255,7 @@
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
 	</node>
 	<node name="goodreads">
-		<node name="link" value="Podziel się swoim doświadczeniem czytelniczym na Goodreads!"/>
+		<node name="link" value="Udostępnij swoje doświadczenia czytelnicze na Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Sieć jest niedostępna. Sprawdź połączenie i spróbuj ponownie"/>
