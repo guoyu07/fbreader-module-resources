@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009-2016 FBReader.ORG Limited <contact@fbreader.org>
+ * Copyright (C) 2009-2017 FBReader.ORG Limited <contact@fbreader.org>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -29,10 +29,19 @@ public abstract class ResourceLanguageUtil {
 	}
 
 	public static Language language(String code, ZLResource root) {
+		if (code == null) {
+			return null;
+		}
+
 		final ZLResource resource = root.getResource(code);
-		return new Language(
-			code,
-			resource.hasValue() ? resource.getValue() : new Locale(code).getDisplayLanguage()
-		);
+		if (resource.hasValue()) {
+			return new Language(code, resource.getValue());
+		} else {
+			try {
+				return new Language(code, new Locale(code).getDisplayLanguage());
+			} catch (Throwable t) {
+				return null;
+			}
+		}
 	}
 }
