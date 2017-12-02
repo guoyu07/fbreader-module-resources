@@ -297,6 +297,8 @@
 		<node name="installPremium" value="پریمیم پر اپ گریڈ کریں"/>
 		<node name="openPremium" value="ایف بی ریڈر پریمیم کھولیں"/>
 		<node name="premium" value="ایف بی ریڈر پریمیم ڈائیلاگ"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="نیا کیا ہے"/>
 		<node name="openStartScreen" value="شروعاتی سکرین"/>
 		<node name="preferences" value="ترتیبات"/>
@@ -608,6 +610,7 @@
 				<node name="sepia" value="Sepia" toBeTranslated="true"/>
 				<node name="wood" value="Wood" toBeTranslated="true"/>
 				<node name="sand" value="Sand" toBeTranslated="true"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Hard paper" toBeTranslated="true"/>
 			</node>
 			<node name="fillMode" value="Fill mode" toBeTranslated="true">
@@ -785,6 +788,7 @@
 				<node name="summary" value="آئٹم کی ترتیب بدلیں"/>
 				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
 				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
 				<node name="mainMenu" value="مین مینیو"/>
 				<node name="enabled" value="فعال کردہ"/>

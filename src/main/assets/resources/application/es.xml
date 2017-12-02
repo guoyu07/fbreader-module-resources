@@ -301,8 +301,10 @@
 	</node>
 	<node name="menu">
 		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open FBReader Premium" toBeTranslated="true"/>
+		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
 		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
+		<node name="yoWindow" value="Meteorología Exacta"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Qué hay de nuevo"/>
 		<node name="openStartScreen" value="Pantalla de inicio"/>
 		<node name="preferences" value="Ajustes"/>
@@ -614,6 +616,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Madera"/>
 				<node name="sand" value="Arena"/>
+				<node name="paper" value="Papel"/>
 				<node name="hardpaper" value="Cartón"/>
 			</node>
 			<node name="fillMode" value="Modo de relleno">
@@ -791,6 +794,7 @@
 				<node name="summary" value="Change items order" toBeTranslated="true"/>
 				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
 				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
 				<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
 				<node name="enabled" value="Enabled" toBeTranslated="true"/>
